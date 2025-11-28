@@ -1,0 +1,16 @@
+# NOTE: node_modules/ should be committed for GitHub Actions
+# to work without requiring npm install in workflows
+
+# Development files
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# Test files (if you add them later)
+coverage/
+*.test.js
+
+# Local development
+.env
+.env.local

@@ -1,0 +1,35 @@
+{
+  "name": "code-cleaner",
+  "version": "1.0.0",
+  "description": "GitHub Action to detect unused imports and dependencies in JavaScript/TypeScript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "github-action",
+    "unused-imports",
+    "unused-dependencies",
+    "code-quality",
+    "javascript",
+    "typescript",
+    "cleanup",
+    "monorepo"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mustan-ali/code-cleaner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mustan-ali/code-cleaner/issues"
+  },
+  "homepage": "https://github.com/mustan-ali/code-cleaner#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.0",
+    "depcheck": "^1.4.3",
+    "fast-glob": "^3.3.2"
+  }
+}

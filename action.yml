@@ -1,0 +1,17 @@
+name: "Code Cleaner"
+description: "Automatically detect and report unused imports and dependencies in JavaScript/TypeScript projects."
+author: "Code Cleaner"
+
+inputs:
+  fail-on-unused:
+    description: "Whether to fail the action when unused imports are found (default: true)"
+    required: false
+    default: "true"
+
+runs:
+  using: "node20"
+  main: "index.js"
+
+branding:
+  icon: "trash-2"
+  color: "green"
