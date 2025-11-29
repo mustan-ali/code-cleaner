@@ -1,4 +1,4 @@
-name: "Code Cleaner"
+name: "Code Cleaner JS/TS"
 description: "Automatically detect and report unused imports and dependencies in JavaScript/TypeScript projects."
 author: "Code Cleaner"
 
