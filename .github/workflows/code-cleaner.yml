@@ -14,7 +14,5 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm install
-
       - name: Run Code Cleaner
         uses: ./

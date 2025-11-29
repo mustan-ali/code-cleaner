@@ -7,7 +7,7 @@ Detects unused dependencies and unused imports across JavaScript/TypeScript proj
 Add to your workflow - no setup required:
 
 ```yaml
-name: Code Quality Check
+name: Code Cleaner
 
 on: [push, pull_request]
 
@@ -16,7 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: npm install
       - uses: mustan-ali/code-cleaner@v1
 ```
 
